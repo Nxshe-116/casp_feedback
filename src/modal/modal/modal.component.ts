@@ -38,7 +38,7 @@ export class ModalComponent {
       const recommendationData: Recommendation = {
         ...this.recommendationForm.value,
         id: `recom_${Date.now()}`,
-        createdAt:new Date().toISOString(),
+        createdAt: new Date().toISOString()
       };
 
       const notificationData: Notifications = {

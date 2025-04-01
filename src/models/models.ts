@@ -3,7 +3,7 @@ export interface Recommendation {
   name: string;
   title: string;
   text: string;
-  createdAt: string; // Change createdAt to string
+  createdAt: string; 
 }
 
 export interface Notifications {
@@ -11,6 +11,6 @@ export interface Notifications {
   userId: string;
   title: string;
   message: string;
-  timestamp: string; // Change timestamp to string
+  timestamp: string;  
   isRead: boolean;
 }
