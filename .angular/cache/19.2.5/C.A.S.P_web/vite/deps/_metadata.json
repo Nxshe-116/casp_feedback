@@ -1,0 +1,73 @@
+{
+  "hash": "ab13f3c1",
+  "configHash": "4fec914d",
+  "lockfileHash": "fc52ee06",
+  "browserHash": "6681b4b3",
+  "optimized": {
+    "@angular/core": {
+      "src": "../../../../../../node_modules/@angular/core/fesm2022/core.mjs",
+      "file": "@angular_core.js",
+      "fileHash": "3874f951",
+      "needsInterop": false
+    },
+    "@angular/fire/app": {
+      "src": "../../../../../../node_modules/@angular/fire/fesm2022/angular-fire-app.mjs",
+      "file": "@angular_fire_app.js",
+      "fileHash": "7423ad41",
+      "needsInterop": false
+    },
+    "@angular/fire/firestore": {
+      "src": "../../../../../../node_modules/@angular/fire/fesm2022/angular-fire-firestore.mjs",
+      "file": "@angular_fire_firestore.js",
+      "fileHash": "9460f27a",
+      "needsInterop": false
+    },
+    "@angular/forms": {
+      "src": "../../../../../../node_modules/@angular/forms/fesm2022/forms.mjs",
+      "file": "@angular_forms.js",
+      "fileHash": "d1fb19bd",
+      "needsInterop": false
+    },
+    "@angular/material/dialog": {
+      "src": "../../../../../../node_modules/@angular/material/fesm2022/dialog.mjs",
+      "file": "@angular_material_dialog.js",
+      "fileHash": "f90172ab",
+      "needsInterop": false
+    },
+    "@angular/platform-browser": {
+      "src": "../../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
+      "file": "@angular_platform-browser.js",
+      "fileHash": "bc961a5d",
+      "needsInterop": false
+    },
+    "@angular/router": {
+      "src": "../../../../../../node_modules/@angular/router/fesm2022/router.mjs",
+      "file": "@angular_router.js",
+      "fileHash": "e6b80cf0",
+      "needsInterop": false
+    },
+    "@angular/material/snack-bar": {
+      "src": "../../../../../../node_modules/@angular/material/fesm2022/snack-bar.mjs",
+      "file": "@angular_material_snack-bar.js",
+      "fileHash": "6fe4550a",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-Q5GFLMEA": {
+      "file": "chunk-Q5GFLMEA.js"
+    },
+    "chunk-S6FFWX3Q": {
+      "file": "chunk-S6FFWX3Q.js"
+    },
+    "chunk-6AQKTXKU": {
+      "file": "chunk-6AQKTXKU.js"
+    },
+    "chunk-AVRIXEFD": {
+      "file": "chunk-AVRIXEFD.js"
+    },
+    "chunk-4DK33N63": {
+      "file": "chunk-4DK33N63.js"
+    }
+  }
+}
