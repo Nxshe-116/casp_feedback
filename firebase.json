@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "site": "casp-20117-22060",
+    "public": "dist/c.a.s.p-web/browser",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

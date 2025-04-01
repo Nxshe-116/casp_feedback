@@ -1,0 +1,45 @@
+<div class="bg-white rounded-xl shadow-lg overflow-hidden p-8 relative w-full">
+  <!-- Exit Icon -->
+  <button (click)="close()" class="absolute top-4 right-4 p-2 rounded-full hover:bg-gray-100 transition">
+    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+    </svg>
+  </button>
+
+  <div class="text-center mb-8">
+    <h2 class="text-3xl font-bold text-gray-800 mb-2">System Evaluation</h2>
+    <p class="text-gray-600">Provide your professional assessment of this platform</p>
+  </div>
+
+  <form [formGroup]="recommendationForm" (ngSubmit)="onSubmit()">
+    <div class="mb-6">
+      <label for="name" class="block text-gray-700 font-medium mb-2">Your Full Name <span class="text-red-500">*</span></label>
+      <input type="text" id="name" formControlName="name" required
+             class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#7BC950] focus:border-transparent transition"
+             placeholder="First and Last Name">
+    </div>
+
+    <div class="mb-6">
+      <label for="recommendation" class="block text-gray-700 font-medium mb-2">Professional Evaluation <span class="text-red-500">*</span></label>
+      <textarea id="recommendation" formControlName="text" rows="6" required
+                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#7BC950] focus:border-transparent transition"
+                placeholder="Please provide your expert opinion on:
+- The system's effectiveness in real-world applications
+- Notable strengths and competitive advantages
+- Areas for improvement or potential concerns
+- Your overall recommendation for industry adoption"></textarea>
+      <p class="text-sm text-gray-500 mt-1">Your evaluation will be visible to other industry professionals</p>
+    </div>
+
+    <div class="flex justify-between items-center mt-8">
+      <button type="button" class="text-gray-600 hover:text-gray-800 font-medium" (click)="close()">
+        Cancel Evaluation
+      </button>
+      <button type="submit"
+              class="bg-[#7BC950] hover:bg-[#6bb342] text-white font-bold py-3 px-8 rounded-lg shadow-md hover:shadow-lg transition transform hover:-translate-y-0.5"
+              [disabled]="!recommendationForm.valid">
+        Submit Evaluation
+      </button>
+    </div>
+  </form>
+</div>
